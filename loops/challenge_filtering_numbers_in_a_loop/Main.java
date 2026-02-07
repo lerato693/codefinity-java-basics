@@ -4,8 +4,8 @@ public class Main {
     public static int sumNotDivisibleBy3Or5(int n) {
         int sum = 0;
         for (int i = 1; i<=n; i++) {
-            if (___) {
-                sum ___;
+            if (i % 3 != 0 && i % 5 != 0) {
+                sum+= i;
             }
         }
         return sum;
